@@ -1,0 +1,97 @@
+footer {
+    height: 10%;
+    background-color: var(--primary-black-color);
+    padding: .1rem;
+}
+
+.footer--all-sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    margin-bottom: 3rem;
+}
+
+.phone-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.phone-contact p {
+    margin-left: 2rem;
+}
+
+.email-contact {
+    display: flex;
+    align-items: center;
+}
+
+.email-contact p {
+    margin-left: 2rem;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    font-size: 2.5rem;
+}
+
+.footer-menu li {
+    margin-bottom: .2rem;
+}
+
+.footer-menu li:last-child {
+    margin-bottom: 0;
+}
+
+.footer--social-networks {
+    display: flex;
+    margin-top: 5rem;
+    margin-right: 6rem;
+}
+
+.fa-facebook {
+    margin-right: 3rem;
+    transition: color .5s;
+}
+
+.fa-twitter {
+    transition: color .5s;
+}
+
+.fa-twitter:hover {
+    cursor: pointer;
+    color: var(--twitter-color);
+}
+
+.fa-facebook:hover {
+    cursor: pointer;    
+    color: var(--facebook-color);
+}
+
+@media only screen and (max-width: 950px) {
+    
+}
+
+@media only screen and (max-width: 750px) {
+    .footer--all-sides {
+        font-size: 1.3rem;
+    }
+    .footer-heading {
+        margin-left: 2rem;
+    }
+
+    .phone-contact,
+    .email-contact {
+        margin-left: 2rem;
+    }
+
+    .fa-facebook {
+        color: var(--facebook-color);
+    }
+
+    .fa-twitter {
+        color: var(--twitter-color);
+    }
+}

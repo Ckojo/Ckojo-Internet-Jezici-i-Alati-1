@@ -1,0 +1,49 @@
+.contact-container {
+    background: var(--secondary-gray-color);
+    color: var(--secondary-green-color);
+    padding: 2.5rem;
+}
+
+.contact-container h2 {
+    font-weight: 700;
+}
+
+.contact-container-content {
+    padding: 1.5rem;
+    border: 2px solid var(--primary-green-color);
+    border-radius: 1.5rem;
+    box-shadow: 0 0 7px var(--primary-black-color);
+}
+
+#contact-informations {
+    background-color: var(--secondary-green-color);
+    padding: 8rem;
+}
+
+.all-contact-informations {
+    display: flex;
+    position: relative;
+}
+
+.phone-contact-form,
+.email-contact-form,
+.location-information-form {
+    width: 25%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid var(--primary-gray-color);
+}
+
+.email-contact-form {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 85%;
+}
+
+.location-information-form {
+    position: absolute;
+    right: 0%;
+    height: 85%;
+}

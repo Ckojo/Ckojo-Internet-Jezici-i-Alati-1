@@ -1,0 +1,28 @@
+:root {
+    --primary-green-color: #156815;
+    --secondary-green-color: #36791c;
+    --tertiary-green-color: #08a129;
+    --primary-white-color: #fff;
+    --primary-black-color: #000000;
+    --primary-gray-color: #bdbcbc;
+    --secondary-gray-color: #f0f0f0;
+    --facebook-color: #3b5998;
+    --twitter-color: #1DA1F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 2rem;
+    color: var(--primary-white-color);
+    font-family: 'Lato';
+}    

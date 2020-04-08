@@ -1,0 +1,73 @@
+#about-us {
+    background-image: linear-gradient(to left, var(--primary-green-color), var(--secondary-green-color));
+    margin-top: -10rem;
+    padding: 8rem;
+}
+
+.about-us-heading {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.about-us-paragraph {
+    text-align: center;
+    font-weight: 100;
+    width: 80%;
+}
+
+.about-us--sides {
+    display: flex;
+    margin-top: 10rem;   
+}
+
+.apartment-building {
+    width: 50rem;
+    filter: brightness(0.6);
+}
+
+@media only screen and (max-width: 950px) {
+    #about-us {
+        padding: 5rem;
+    }
+
+    .about-us--sides {
+        display: block;
+    }
+
+    .about-us--left-side {
+        font-size: 1.5rem;
+        transform: translateX(10%);
+        margin-bottom: 2.5rem;
+        margin-top: -5rem;
+    }
+
+    .apartment-building {
+        width: 35rem;
+        transform: translateX(70%);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #about-us {
+        padding: 5rem;
+    }
+
+    .about-us--sides {
+        display: block;
+    }
+
+    .about-us-paragraph {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .about-us--left-side {
+        transform: translateX(1%);
+    }
+
+    .apartment-building {
+        width: 35rem;
+        transform: translateX(10%);
+    }
+}
