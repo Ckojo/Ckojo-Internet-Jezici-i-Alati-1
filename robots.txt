@@ -1,0 +1,11 @@
+# Crawlers Setup
+User-agent: *
+
+# Directories 
+Disallow: /img/
+Disallow: /node_modules/
+
+# Files
+Disallow: /.gitignore
+Disallow: /package.json
+Disallow: /package-lock.json
